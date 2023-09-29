@@ -1,0 +1,14 @@
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/bin/Debug/net7.0/Person_Object
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/bin/Debug/net7.0/Person_Object.deps.json
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/bin/Debug/net7.0/Person_Object.runtimeconfig.json
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/bin/Debug/net7.0/Person_Object.dll
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/bin/Debug/net7.0/Person_Object.pdb
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.AssemblyInfo.cs
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.dll
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/refint/Person_Object.dll
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.pdb
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/Person_Object.genruntimeconfig.cache
+/Users/ilya/Desktop/HW/C#/Lecture_Week_2/Person_Object/obj/Debug/net7.0/ref/Person_Object.dll

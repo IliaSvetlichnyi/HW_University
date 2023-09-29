@@ -1,0 +1,14 @@
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.AssemblyInfo.cs
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/bin/Debug/net7.0/Practise
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/bin/Debug/net7.0/Practise.deps.json
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/bin/Debug/net7.0/Practise.runtimeconfig.json
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/bin/Debug/net7.0/Practise.dll
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/bin/Debug/net7.0/Practise.pdb
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.dll
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/refint/Practise.dll
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.pdb
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/Practise.genruntimeconfig.cache
+/Users/ilya/Desktop/HW/C#/Practise_at_home/Practise/obj/Debug/net7.0/ref/Practise.dll
