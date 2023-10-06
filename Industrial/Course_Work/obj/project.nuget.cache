@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "DwoVuOtOjfI6RfgK4DwFOwuWoS3WKOyGUp0Tokt6LkKgy/Duq3/gwbXsPKpe07090evl3DCs9sOfxjHLYyCLew==",
+  "success": true,
+  "projectFilePath": "/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/Course_Work.csproj",
+  "expectedPackageFiles": [
+    "/Users/ilya/.nuget/packages/atksharp/3.24.24.95/atksharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/cairosharp/3.24.24.95/cairosharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/gdksharp/3.24.24.95/gdksharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/giosharp/3.24.24.95/giosharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/glibsharp/3.24.24.95/glibsharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/gtksharp/3.24.24.95/gtksharp.3.24.24.95.nupkg.sha512",
+    "/Users/ilya/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512"
+  ],
+  "logs": []
+}
