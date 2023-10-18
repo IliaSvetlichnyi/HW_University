@@ -1,0 +1,54 @@
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/Course_Work
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/Course_Work.deps.json
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/Course_Work.runtimeconfig.json
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/Course_Work.pdb
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/AtkSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/CairoSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/GdkSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/GioSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/GLibSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/GtkSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/bin/Debug/net7.0/PangoSharp.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.csproj.AssemblyReference.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.AssemblyInfo.cs
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.csproj.CopyComplete
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/refint/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.pdb
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/Course_Work.genruntimeconfig.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work/obj/Debug/net7.0/ref/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.csproj.AssemblyReference.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.AssemblyInfo.cs
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/refint/Course_Work.dll
+/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/obj/Debug/net7.0/Course_Work.pdb
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.csproj.AssemblyReference.cache
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.AssemblyInfo.cs
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.dll
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/refint/Course_Work.dll
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.pdb
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/Course_Work
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/Course_Work.deps.json
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/Course_Work.runtimeconfig.json
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/Course_Work.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/Course_Work.pdb
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/AtkSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/CairoSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/GdkSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/GioSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/GLibSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/GtkSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/bin/Debug/net7.0/PangoSharp.dll
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.csproj.CopyComplete
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/Course_Work.genruntimeconfig.cache
+/Users/ilya/Desktop/Course_Work — копия/obj/Debug/net7.0/ref/Course_Work.dll
