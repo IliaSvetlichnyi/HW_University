@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dw9fGaYzT3GBq+YR67h35imKJmv5HSGbArrRRy/JIuALA6fQo/x8u+0QXEpaYStNMddIHmxRKFfP3pnJ4dkfnQ==",
+  "dgSpecHash": "ivA+0lqz0ID6hUiIBHuUcJR+uSOdn4ZuRsTzt3uk6AHk5d+awQkZ/3T7LQ0zEIE03R/2R3FSHiTEtVkFKCkYbA==",
   "success": true,
-  "projectFilePath": "/Users/ilya/Desktop/Course_Work — копия/Course_Work.csproj",
+  "projectFilePath": "/Users/ilya/Desktop/GitHub_Repositories/HW_University/Industrial/Course_Work — копия/Course_Work.csproj",
   "expectedPackageFiles": [
     "/Users/ilya/.nuget/packages/atksharp/3.24.24.95/atksharp.3.24.24.95.nupkg.sha512",
     "/Users/ilya/.nuget/packages/cairosharp/3.24.24.95/cairosharp.3.24.24.95.nupkg.sha512",
