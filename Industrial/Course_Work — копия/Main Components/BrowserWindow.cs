@@ -1,6 +1,6 @@
 using Gtk;
 using SimpleWebBrowser.Http;
-using SimpleWebBrowser.Controllers; // Добавлено
+using SimpleWebBrowser.Controllers;
 using System;
 using System.Collections.Generic;
 
@@ -26,6 +26,8 @@ namespace SimpleWebBrowser.UI
 
         private HistoryManager historyManager = new HistoryManager(); // Добавлено
 
+        private BulkDownloader bulkDownloader;
+
 
         // Constructor
         [Obsolete]
@@ -41,6 +43,8 @@ namespace SimpleWebBrowser.UI
             LoadUrl(); // автоматическая загрузка домашней страницы при запуске
 
             historyManager.LoadHistoryFromFile();
+
+            bulkDownloader = new BulkDownloader(requestManager);
         }
 
         [Obsolete]
@@ -124,10 +128,18 @@ namespace SimpleWebBrowser.UI
             historySubmenu.Append(viewHistoryItem);
             historyItem.Submenu = historySubmenu;
 
+
+            
+            var bulkDownloadItem = new MenuItem("Bulk Download");
+            bulkDownloadItem.Activated += BulkDownloadItem_Activated;
+
+            
+
             MenuBar.Append(homeItem);
             MenuBar.Append(setAsHomePageItem);
             MenuBar.Append(favoritesItem);
             MenuBar.Append(historyItem);
+            MenuBar.Append(bulkDownloadItem);
 
 
 
@@ -189,6 +201,25 @@ namespace SimpleWebBrowser.UI
                 LoadUrl();
             }
         }
+
+
+        private void BulkDownloadItem_Activated(object sender, EventArgs e)
+        {
+            var fileChooser = new FileChooserDialog(
+                "Choose a file for bulk download",
+                this,
+                FileChooserAction.Open,
+                "Cancel", ResponseType.Cancel,
+                "Open", ResponseType.Accept);
+
+            if (fileChooser.Run() == (int)ResponseType.Accept)
+            {
+                var results = bulkDownloader.PerformBulkDownload(fileChooser.Filename);
+                HtmlDisplay.Buffer.Text = results;
+            }
+            fileChooser.Destroy();
+        }
+
 
 
         // Utility methods
