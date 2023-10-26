@@ -1,3 +1,5 @@
+# This file implements a class for representing a layer in a neural network.
+
 import numpy as np
 from activation import logistic, relu, tanh
 

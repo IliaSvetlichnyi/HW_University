@@ -1,6 +1,8 @@
+# This module provides an opportunity for quickly creating multi-layer neural networks.
+
 from network import NeuralNetwork
 
-# "architecture" is a list of numbers where each number represents number of neurons in each layer
+# "architecture" is a list of numbers where each number represents number of neurons in specific layer
 def build_network(architecture, activations):
     network = NeuralNetwork()
     for i in range(len(architecture) - 1):
