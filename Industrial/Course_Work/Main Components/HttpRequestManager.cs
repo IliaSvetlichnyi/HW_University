@@ -5,32 +5,21 @@ using System.Text.RegularExpressions;
 
 namespace SimpleWebBrowser.Http
 {
-    /// <summary>
-    /// Provides methods to interact with HTTP web resources.
-    /// </summary>
+    // Provides methods to interact with HTTP web resources.
     public class HttpRequestManager
     {
-        /// <summary>
-        /// Represents the content returned from a web request.
-        /// </summary>
+        // Represents the content returned from a web request.
         public class ResponseContent
         {
-            /// <summary>
-            /// Gets or sets the HTML content or error message of the response.
-            /// </summary>
+            // Gets or sets the HTML content or error message of the response.
             public string HtmlContent { get; set; }
 
-            /// <summary>
-            /// Gets or sets the status code of the HTTP response.
-            /// </summary>
+            // Gets or sets the status code of the HTTP response.
             public HttpStatusCode StatusCode { get; set; }
         }
 
-        /// <summary>
-        /// Fetches the HTML content of a given URL and returns the content along with the HTTP status code.
-        /// </summary>
-        /// <param name="url">The URL of the web resource to fetch.</param>
-        /// <returns>A ResponseContent object containing the HTML content and the status code.</returns>
+        // Fetches the HTML content of a given URL and returns the content along with the HTTP status code.
+        // <returns> A ResponseContent object containing the HTML content and the status code.</returns>
         public ResponseContent FetchHtmlContent(string url)
         {
             try
@@ -71,11 +60,7 @@ namespace SimpleWebBrowser.Http
             }
         }
 
-        /// <summary>
-        /// Extracts the title from the provided HTML content.
-        /// </summary>
-        /// <param name="htmlContent">The HTML content from which the title is to be extracted.</param>
-        /// <returns>The extracted title or "No title" if no title found.</returns>
+        // Extracts the title from the provided HTML content.
         public string ExtractTitleFromHtml(string htmlContent)
         {
             const string defaultTitle = "No title";

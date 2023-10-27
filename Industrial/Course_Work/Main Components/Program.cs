@@ -1,4 +1,3 @@
-// Import necessary libraries.
 using Gtk;
 using SimpleWebBrowser.UI;
 

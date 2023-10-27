@@ -7,7 +7,7 @@ namespace SimpleWebBrowser.Controllers
     public class HistoryManager
     {
         private const string HistoryFilePath = "history.txt";
-        private const int MaxHistoryItems = 1000; // добавим ограничение на количество записей в истории
+        private const int MaxHistoryItems = 1000; // Maximum number of URLs in the history
         private List<string> history = new List<string>();
         private int currentHistoryIndex = -1;
 
