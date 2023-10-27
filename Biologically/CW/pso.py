@@ -2,13 +2,13 @@ from numpy import array, random
 from loss import mse_loss
 
 # PSO parameters
-iter_max = 10000
-pop_size = 100
+iter_max = 2000
+pop_size = 150 # 100
 # coefficients determining the magnitude of the influence of the best particle solution 
 # and the best global solution, respectively, on the particle velocity.
-c1 = 2
-c2 = 2
-err_crit = 0.00001
+c1 = 2.5 # 2
+c2 = 2.5 # 2
+err_crit = 0.0001
 
 # This class represents a particle in the PSO algorithm
 class Particle:
