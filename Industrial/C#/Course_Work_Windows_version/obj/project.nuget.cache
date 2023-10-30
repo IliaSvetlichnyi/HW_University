@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "aU9tdw3glr64MrFhFe8iPkVkrr/yvEnC0JYolaKJYn/wO/WTcq13k85rnHrp9tvlutvxwzIVcuHKDns64hkbbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\is2035\\Desktop\\Course_Work\\Course_Work.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\is2035\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\is2035\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

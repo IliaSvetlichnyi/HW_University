@@ -1,0 +1,4 @@
+amazon||https://www.amazon.ae/
+Google||https://www.google.com/
+HWU||https://www.hw.ac.uk/dubai/
+
