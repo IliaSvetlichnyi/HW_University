@@ -2,3 +2,4 @@ HWU||https://www.hw.ac.uk/dubai/
 Google||https://www.google.com/
 YouTube||https://www.youtube.com/
 amazon||https://www.amazon.ae/
+Bing||https://www.bing.com/
