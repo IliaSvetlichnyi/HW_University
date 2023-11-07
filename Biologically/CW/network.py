@@ -1,6 +1,8 @@
 # This file implements a class for representing a multilayer neural network.
 
 from layer import NeuralLayer
+import numpy as np
+
 
 class NeuralNetwork:
     def __init__(self):
@@ -23,19 +25,21 @@ class NeuralNetwork:
             b_size = layer.biases.size
 
             # reshape weights and set them to the layer
-            layer.weights = weights[idx:idx + w_size].reshape(layer.weights.shape)
+            layer.weights = weights[idx:idx +
+                                    w_size].reshape(layer.weights.shape)
             idx += w_size
 
             # set biases for the layer
-            layer.biases = weights[idx:idx + b_size].reshape(layer.biases.shape)
+            layer.biases = weights[idx:idx +
+                                   b_size].reshape(layer.biases.shape)
             idx += b_size
 
         if idx != len(weights):
-            raise ValueError("Total size of provided weights does not match the network")
-        
+            raise ValueError(
+                "Total size of provided weights does not match the network")
+
     def total_weights(self):
         total = 0
         for layer in self.layers:
             total += layer.weights.size + layer.biases.size
         return total
-

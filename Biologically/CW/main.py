@@ -1,6 +1,6 @@
 import pandas as pd
 from ANNbuilder import build_network
-from pso import optimize
+from Biologically.CW.previous_versions_of_pso.pso import optimize
 from loss import mse_loss
 import numpy as np
 
