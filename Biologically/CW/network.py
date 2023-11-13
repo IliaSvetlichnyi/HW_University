@@ -15,6 +15,7 @@ class NeuralNetwork:
         output = input_data
         for layer in self.layers:
             output = layer.forward(output)
+            # print(f"Output shape after layer: {output.shape}")
         return output
 
     def set_weights(self, weights):

@@ -58,6 +58,7 @@ class Swarm:
         - train_labels (ndarray): The training labels to use for evaluating particle positions.
         - current_iteration (int): The current iteration of the swarm.
         """
+        # print(f"Train labels shape in update_particles: {train_labels.shape}")
         # First update the global best if this is the first iteration
         self.evaluate_global_best(current_iteration)
         for particle in self.particles:

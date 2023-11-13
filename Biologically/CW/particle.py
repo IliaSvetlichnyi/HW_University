@@ -15,6 +15,7 @@ class Particle:
         self.informants = []
 
     def update_best_informant_position(self, positions, loss_func, network, train_data, train_labels):
+        # print(f"Train labels shape in update_best_informant_position: {train_labels.shape}")
         # Initialize the best local loss to the particle's best loss
         best_local_loss = self.best_loss
         # Iterate over all the positions of the informants
@@ -24,6 +25,7 @@ class Particle:
             # Compute the predictions of the neural network for the training data
             predictions = network.forward(train_data)
             # Compute the loss for the current position
+            # print(f"Train labels shape before calling loss function: {train_labels.shape}")
             local_loss = loss_func(predictions, train_labels)
             # Update the best local loss and best informant position if the current position has a lower loss
             if local_loss < best_local_loss:
@@ -47,6 +49,7 @@ class Particle:
             self.position = np.clip(self.position, bounds[0], bounds[1])
 
     def evaluate(self, loss_func, network, train_data, train_labels):
+        # print(f"Train labels shape in evaluate: {train_labels.shape}")
         # Set the weights of the neural network to the current position
         network.set_weights(self.position)
         # Compute the predictions of the neural network for the training data
