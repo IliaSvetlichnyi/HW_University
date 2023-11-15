@@ -8,13 +8,15 @@ from pso import pso_optimization
 from loss import mse_loss, sparse_categorical_crossentropy
 from sklearn.metrics import classification_report
 
-# Load the data
+# Data loading
 data = pd.read_csv(
-    "/Users/ilya/Desktop/GitHub_Repositories/HW_University/Data_Mining/datasets/star_classification.csv")
+    "/Users/ilya/Desktop/GitHub_Repositories/HW_University/Data_Mining/datasets/Iris.csv")
 
-# Devide the data into features and labels
-X = data.drop("class", axis=1).values
-y = data["class"]
+data = data.drop(['Id'], axis=1)
+
+# Deviding data into features and labels
+X = data.drop("Species", axis=1).values
+y = data["Species"]
 
 
 # Data separation and scaling
@@ -25,7 +27,7 @@ scaler = MinMaxScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-# Encoding the labels into numbers
+# Encoding labels with LabelEncoder into numbers
 encoder = LabelEncoder()
 
 # Converting class labels for training data
@@ -36,7 +38,7 @@ y_test_encoded = encoder.transform(y_test)
 
 
 # Defining the network architecture and activation functions
-architecture = [17, 34, 3]  # Network architecture
+architecture = [4, 8, 3]  # Network architecture
 activations = ['relu', 'softmax']  # Activation functions
 
 # Use the build_network function to create the network

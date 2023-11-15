@@ -21,6 +21,9 @@ alpha_MLE = n / (sum_of_ln_xi - (n * log(x_m)))
 # Exercise 3 (calculating fisher information for alpha)
 fisher_information = n / alpha_MLE**2
 
+# Calculating distribution of alpha_hat
+print(sprintf("Alpha_hat has approximately N(%.3f, %.3f)", alpha_MLE, 1 / fisher_information))
+
 # Exercise 4 (calculating alpha value from MME)
 alpha_MME = mean_value / (mean_value - x_m)
 

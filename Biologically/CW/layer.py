@@ -21,6 +21,8 @@ class NeuralLayer:
             return tanh
         elif name == 'softmax':
             return softmax
+        elif name == 'linear':
+            return lambda x: x
         else:
             raise ValueError(f"Unknown activation function: {name}")
 
