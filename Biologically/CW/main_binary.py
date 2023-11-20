@@ -33,7 +33,7 @@ dimensions = network.total_weights()
 
 # Call pso_optimization function with the created network and parameters
 best_weights = pso_optimization(
-    num_particles=100,
+    num_particles=50,
     num_iterations=300,
     loss_func=mse_loss,
     network=network,

@@ -19,4 +19,8 @@ def pso_optimization(num_particles, num_iterations, loss_func, network, train_da
     # Print final best loss and iteration number after all iterations
     print(
         f"Final Best Loss: {swarm.global_best_loss} on Iteration: {swarm.global_best_iteration}")
+    
     return swarm.global_best_position
+
+
+

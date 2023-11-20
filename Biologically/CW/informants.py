@@ -1,14 +1,14 @@
-# informants.py
+# This file implements informants logic for PSO algorithm
 
 import random
 
 
 def select_informants(particles, num_informants):
     """
-    Создаёт группу информаторов для каждой частицы.
-    particles: список всех частиц.
-    num_informants: количество информаторов для каждой частицы.
-    Возвращает словарь с ключами в виде индексов частиц и значениями в виде списков индексов их информаторов.
+    Creates a group of informants for each particle.
+    particles: list of all particles.
+    num_informants: number of informants for each particle.
+    Returns a dictionary with keys as particle indices and values as lists of indices of their informants.
     """
     informants_group = {}
     for i in range(len(particles)):
@@ -20,11 +20,11 @@ def select_informants(particles, num_informants):
 
 def get_best_informant_position(particles, informants_group, i):
     """
-    Находит лучшее решение среди информаторов частицы.
-    particles: список всех частиц.
-    informants_group: словарь информаторов для каждой частицы.
-    i: индекс текущей частицы.
-    Возвращает лучшую позицию среди информаторов.
+    Finds the best solution among the informants of a particle.
+    particles: list of all particles.
+    informants_group: dictionary of informants for each particle.
+    i: index of the current particle.
+    Returns the best position among the informants.
     """
     best_position = None
     best_fitness = -float('inf')
