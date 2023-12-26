@@ -29,5 +29,5 @@ document_id = '140228202800-6ef39a241f35301a9a42cd0ed21e5fb0'
 # views_by_continent(df, document_id)  # 2_b
 # views_by_visitor_useragent(df, document_id) # 3_a
 # views_by_browser_clear(df, document_id) # 3_b
-# print(reader_profile(df, document_id))  # 4
-create_graph(document_id, df)
+print(reader_profile(df, document_id))  # 4
+# create_graph(document_id, df)
