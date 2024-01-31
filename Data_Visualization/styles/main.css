@@ -1,0 +1,32 @@
+h1 {
+    color: green;
+}
+
+p {
+    color: tomato;
+}
+
+p.myClass {
+    color: teal;
+}
+
+p#myId {
+    color: goldenrod;
+}
+
+
+@import 'vars.css';
+
+h1 {
+    color: var(--main-color);
+    font-family: var(--font-title);
+}
+
+p {
+    color: var(--main-color);
+    font-family: var(--font-text);
+}
+
+p.myClass {
+    color: var(--accent-color);
+}
